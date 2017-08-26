@@ -7,7 +7,7 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="labelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="#a8a8a8" />
+                <Setter Property="TextColor" Value="White" />
                 <Setter Property="FontSize" Value="Small" />
             </Style>
             <Style x:Key="fieldStyle" TargetType="Label">
@@ -26,11 +26,11 @@
         <ScrollView>
             <StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  
-              BackgroundColor="#545454">
+              BackgroundColor="#ada62b">
                     <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
                         <Label Text="Search by Zip Code" TextColor="White" FontAttributes="Bold"  
                 FontSize="Medium" />
-                        <Label x:Name="zipCodeLabel" Text="Zip Code" Style="{StaticResource labelStyle}" />
+                        <Label x:Name="zipCodeLabel" Text="Zip Code" TextColor ="White" Style="{StaticResource labelStyle}" />
                         <Entry x:Name="zipCodeEntry" />
                     </StackLayout>
                     <StackLayout Padding="0,0,0,10" VerticalOptions="End">
@@ -45,7 +45,7 @@
                         </Button>
                     </StackLayout>
                 </StackLayout>
-                <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
+                <StackLayout Orientation="Vertical" Padding="10,10,10,10"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#3498DB">
                     <Label Text="Location" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="titleLabel" Text="{Binding Title}" Style="{DynamicResource BodyStyle}" />
