@@ -1,0 +1,2 @@
+UltraWeather, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  UltraWeather.App.xaml
