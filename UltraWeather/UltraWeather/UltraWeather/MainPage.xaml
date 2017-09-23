@@ -27,10 +27,10 @@
                 <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  
               BackgroundColor="#ada62b">
                     <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
-                        <Label Text="Search by Zip Code" TextColor="White" FontAttributes="Bold"  
+                        <Label Text="Search by City Name" TextColor="White" FontAttributes="Bold"  
                 FontSize="Medium" />
-                        <Label x:Name="zipCodeLabel" Text="Zip Code" TextColor ="White" Style="{StaticResource labelStyle}" />
-                        <Entry x:Name="zipCodeEntry" />
+                        <Label x:Name="citynameLabel" Text="City Name" TextColor ="White" Style="{StaticResource labelStyle}" />
+                        <Entry x:Name="cityNameEntry" />
                     </StackLayout>
                     <StackLayout Padding="0,0,0,10" VerticalOptions="End">
                         <Button x:Name="getWeatherBtn" Text="Get Weather" WidthRequest="185" BorderWidth="1" >

@@ -12,4 +12,19 @@
     <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
+  <PropertyGroup>
+    <Source>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</Source>
+    <SmallTileSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</SmallTileSource>
+    <MediumTileSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</MediumTileSource>
+    <WideTileSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</WideTileSource>
+    <LargeTileSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</LargeTileSource>
+    <AppIconSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</AppIconSource>
+    <SplashScreenSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\emmas\Downloads\Webp.net-resizeimage.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\emmas\Downloads\simple_weather_icons_partly_mixed_rain_and_thunderstorms.png</PackageLogoSource>
+    <AppxPackageIsForStore>True</AppxPackageIsForStore>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x86|x64|arm</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
 </Project>

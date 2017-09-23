@@ -20,7 +20,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 // 
 // 1. Public type definitions with interop implementation used by this application including WinRT & COM data structures and P/Invokes.
 // 
-// 2. The 'McgInterop' class containing marshaling code that acts as a bridge from managed code to native code.
+// 2. The '__Interop' class containing marshaling code that acts as a bridge from managed code to native code.
 // 
 // 3. The 'McgNative' class containing marshaling code and native type definitions that call into native code and are called by native code.
 // 
@@ -51,7 +51,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 // warning CS0628 new protected member declared in sealed class
 #pragma warning disable 628
 
-namespace McgInterop
+namespace __Interop
 {
 	/// <summary>
 	/// P/Invoke class for module '[MRT]'
@@ -65,9 +65,24 @@ namespace McgInterop
 		{
 			// Marshalling
 			// Call to native method
-			global::McgInterop._MRT__PInvokes.RhWaitForPendingFinalizers(allowReentrantWait);
+			global::__Interop._MRT__PInvokes.RhWaitForPendingFinalizers(allowReentrantWait);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
+		}
+
+		// Signature, _RhYield, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Runtime.RuntimeImports", "_RhYield")]
+		public static int _RhYield()
+		{
+			// Setup
+			int unsafe___value;
+			// Marshalling
+			// Call to native method
+			unsafe___value = global::__Interop._MRT__PInvokes._RhYield();
+			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+			// Return
+			return unsafe___value;
 		}
 
 		// Signature, RhCompatibleReentrantWaitAny, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr___ptr__w64 int *, 
@@ -83,7 +98,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop._MRT__PInvokes.RhCompatibleReentrantWaitAny(
+			unsafe___value = global::__Interop._MRT__PInvokes.RhCompatibleReentrantWaitAny(
 								alertable, 
 								timeout, 
 								count, 
@@ -107,7 +122,7 @@ namespace McgInterop
 		{
 			// Marshalling
 			// Call to native method
-			global::McgInterop._MRT__PInvokes._ecvt_s(
+			global::__Interop._MRT__PInvokes._ecvt_s(
 								((byte*)buffer), 
 								sizeInBytes, 
 								value, 
@@ -129,7 +144,7 @@ namespace McgInterop
 		{
 			// Marshalling
 			// Call to native method
-			global::McgInterop._MRT__PInvokes.memmove(
+			global::__Interop._MRT__PInvokes.memmove(
 								((byte*)dmem), 
 								((byte*)smem), 
 								size
@@ -158,7 +173,7 @@ namespace McgInterop
 			global::System.IntPtr unsafe_commonStub;
 			// Marshalling
 			// Call to native method
-			global::McgInterop.__PInvokes.CallingConventionConverter_GetStubs(
+			global::__Interop.__PInvokes.CallingConventionConverter_GetStubs(
 								&(unsafe_returnVoidStub), 
 								&(unsafe_returnIntegerStub), 
 								&(unsafe_commonStub)
@@ -177,16 +192,16 @@ namespace McgInterop
 		{
 			// Marshalling
 			// Call to native method
-			global::McgInterop.__PInvokes.CallingConventionConverter_SpecifyCommonStubData(commonStubData);
+			global::__Interop.__PInvokes.CallingConventionConverter_SpecifyCommonStubData(commonStubData);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
 		}
 	}
 
 	/// <summary>
-	/// P/Invoke class for module 'api-ms-win-core-errorhandling-l1-1-0.dll'
+	/// P/Invoke class for module 'api-ms-win-core-errorhandling-l1-1-1.dll'
 	/// </summary>
-	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_0_dll
+	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_1_dll
 	{
 		// Signature, GetLastError, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -197,7 +212,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_errorhandling_l1_1_0_dll_PInvokes.GetLastError();
+			unsafe___value = global::__Interop.api_ms_win_core_errorhandling_l1_1_1_dll_PInvokes.GetLastError();
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
 			return unsafe___value;
@@ -218,7 +233,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_winrt_l1_1_0_dll_PInvokes.RoInitialize(initType);
+			unsafe___value = global::__Interop.api_ms_win_core_winrt_l1_1_0_dll_PInvokes.RoInitialize(initType);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
 			return unsafe___value;
@@ -226,9 +241,9 @@ namespace McgInterop
 	}
 
 	/// <summary>
-	/// P/Invoke class for module 'api-ms-win-core-localization-l1-2-0.dll'
+	/// P/Invoke class for module 'api-ms-win-core-localization-l1-2-1.dll'
 	/// </summary>
-	public unsafe static partial class api_ms_win_core_localization_l1_2_0_dll
+	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll
 	{
 		// Signature, IsValidLocaleName, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] char___ptrwchar_t *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -239,7 +254,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.IsValidLocaleName(((ushort*)lpLocaleName));
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.IsValidLocaleName(((ushort*)lpLocaleName));
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
 			return unsafe___value;
@@ -257,7 +272,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.ResolveLocaleName(
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.ResolveLocaleName(
 								((ushort*)lpNameToResolve), 
 								((ushort*)lpLocaleName), 
 								cchLocaleName
@@ -279,7 +294,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.GetCPInfoExW(
+			unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.GetCPInfoExW(
 								CodePage, 
 								dwFlags, 
 								((global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages*)lpCPInfoEx)
@@ -291,7 +306,7 @@ namespace McgInterop
 
 		// Signature, FormatMessage, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [in] [Mcg.CodeGen.BlittableArrayMarshaller] rg_System_IntPtr____w64 int *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("Microsoft.Win32.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FormatMessage")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+mincore", "FormatMessage")]
 		public static int FormatMessage(
 					int dwFlags, 
 					global::System.IntPtr lpSource, 
@@ -312,16 +327,16 @@ namespace McgInterop
 					unsafe_lpBuffer = null;
 				else
 				{
-					unsafe_lpBuffer = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(lpBuffer.Capacity * 2 
+					unsafe_lpBuffer = (ushort*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(lpBuffer.Capacity * 2 
 										+ 2)));
 					if (unsafe_lpBuffer == null)
 						throw new global::System.OutOfMemoryException();
 				}
-				fixed (global::System.IntPtr* pinned_arguments = global::McgInterop.McgCoreHelpers.GetArrayForCompat(arguments))
+				fixed (global::System.IntPtr* pinned_arguments = global::__Interop.McgHelpers.GetArrayForCompat(arguments))
 				{
 					unsafe_arguments = (global::System.IntPtr*)pinned_arguments;
 					// Call to native method
-					unsafe___value = global::McgInterop.api_ms_win_core_localization_l1_2_0_dll_PInvokes.FormatMessage(
+					unsafe___value = global::__Interop.api_ms_win_core_localization_l1_2_1_dll_PInvokes.FormatMessage(
 										dwFlags, 
 										lpSource, 
 										dwMessageId, 
@@ -357,22 +372,22 @@ namespace McgInterop
 	{
 		// Signature, RoGetBufferMarshaler, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.ComInterfaceMarshaller] System_Runtime_InteropServices_IMarshal__System_Runtime_WindowsRuntime__System_Runtime_InteropServices__IMarshal__System_Runtime_WindowsRuntime *, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b77a5c561934e089", "Interop+mincore", "RoGetBufferMarshaler")]
 		public static int RoGetBufferMarshaler(out global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime bufferMarshalerPtr)
 		{
 			// Setup
-			global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl** unsafe_bufferMarshalerPtr = default(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl**);
+			void* unsafe_bufferMarshalerPtr = default(void*);
 			int unsafe___value;
 			try
 			{
 				// Marshalling
 				unsafe_bufferMarshalerPtr = null;
 				// Call to native method
-				unsafe___value = global::McgInterop.api_ms_win_core_winrt_robuffer_l1_1_0_dll_PInvokes.RoGetBufferMarshaler(&(unsafe_bufferMarshalerPtr));
+				unsafe___value = global::__Interop.api_ms_win_core_winrt_robuffer_l1_1_0_dll_PInvokes.RoGetBufferMarshaler(&(unsafe_bufferMarshalerPtr));
 				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				bufferMarshalerPtr = (global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime)global::System.Runtime.InteropServices.McgModuleManager.ComInterfaceToObject(
+				bufferMarshalerPtr = (global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime)global::System.Runtime.InteropServices.McgMarshal.ComInterfaceToObject(
 									((global::System.IntPtr)unsafe_bufferMarshalerPtr), 
-									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.11.0, Culture=neutral, Public" +
+									global::System.Runtime.InteropServices.TypeOfHelper.RuntimeTypeHandleOf("System.Runtime.InteropServices.IMarshal,System.Runtime.WindowsRuntime, Version=4.0.12.0, Culture=neutral, Public" +
 											"KeyToken=b77a5c561934e089")
 								);
 				// Return
@@ -406,7 +421,7 @@ namespace McgInterop
 			int unsafe___value;
 			// Marshalling
 			// Call to native method
-			unsafe___value = global::McgInterop.api_ms_win_core_com_l1_1_0_dll_PInvokes.CoCreateInstance(
+			unsafe___value = global::__Interop.api_ms_win_core_com_l1_1_0_dll_PInvokes.CoCreateInstance(
 								((byte*)rclsid), 
 								pUnkOuter, 
 								dwClsContext, 
@@ -421,9 +436,9 @@ namespace McgInterop
 	}
 
 	/// <summary>
-	/// P/Invoke class for module 'OleAut32'
+	/// P/Invoke class for module 'oleaut32.dll'
 	/// </summary>
-	public unsafe static partial class OleAut32
+	public unsafe static partial class oleaut32_dll
 	{
 		// Signature, SysFreeString, [fwd] [return] [Mcg.CodeGen.VoidReturnMarshaller] void__void, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -432,7 +447,7 @@ namespace McgInterop
 		{
 			// Marshalling
 			// Call to native method
-			global::McgInterop.OleAut32_PInvokes.SysFreeString(bstr);
+			global::__Interop.oleaut32_dll_PInvokes.SysFreeString(bstr);
 			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
 			// Return
 		}
@@ -445,7 +460,7 @@ namespace McgInterop
 	{
 		// Signature, RtlIpv6AddressToStringExW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableArrayMarshaller] rg_byte__unsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] ushort__unsigned short, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NtDll", "RtlIpv6AddressToStringExW")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NtDll", "RtlIpv6AddressToStringExW")]
 		public static uint RtlIpv6AddressToStringExW(
 					byte[] address, 
 					uint scopeId, 
@@ -461,21 +476,21 @@ namespace McgInterop
 			try
 			{
 				// Marshalling
-				fixed (byte* pinned_address = global::McgInterop.McgCoreHelpers.GetArrayForCompat(address))
+				fixed (byte* pinned_address = global::__Interop.McgHelpers.GetArrayForCompat(address))
 				{
 					unsafe_address = (byte*)pinned_address;
 					if (addressString == null)
 						unsafe_addressString = null;
 					else
 					{
-						unsafe_addressString = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(addressString.Capacity * 2 
+						unsafe_addressString = (ushort*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(addressString.Capacity * 2 
 											+ 2)));
 						if (unsafe_addressString == null)
 							throw new global::System.OutOfMemoryException();
 					}
 					unsafe_addressStringLength = addressStringLength;
 					// Call to native method
-					unsafe___value = global::McgInterop.ntdll_dll_PInvokes.RtlIpv6AddressToStringExW(
+					unsafe___value = global::__Interop.ntdll_dll_PInvokes.RtlIpv6AddressToStringExW(
 										unsafe_address, 
 										scopeId, 
 										port, 
@@ -503,7 +518,7 @@ namespace McgInterop
 
 		// Signature, RtlIpv4AddressToStringExW, [fwd] [return] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [in] [Mcg.CodeGen.BlittableArrayMarshaller] rg_byte__unsigned char *, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] ushort__unsigned short, [fwd] [out] [Mcg.CodeGen.StringBuilderMarshaller] System_Text_StringBuilder__wchar_t *, [fwd] [in] [out] [managedbyref] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, 
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.0.11.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NtDll", "RtlIpv4AddressToStringExW")]
+		[global::System.Runtime.InteropServices.McgPInvokeMarshalStub("System.Net.Primitives, Version=4.0.12.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "Interop+NtDll", "RtlIpv4AddressToStringExW")]
 		public static uint RtlIpv4AddressToStringExW(
 					byte[] address, 
 					ushort port, 
@@ -518,21 +533,21 @@ namespace McgInterop
 			try
 			{
 				// Marshalling
-				fixed (byte* pinned_address = global::McgInterop.McgCoreHelpers.GetArrayForCompat(address))
+				fixed (byte* pinned_address = global::__Interop.McgHelpers.GetArrayForCompat(address))
 				{
 					unsafe_address = (byte*)pinned_address;
 					if (addressString == null)
 						unsafe_addressString = null;
 					else
 					{
-						unsafe_addressString = (ushort*)global::McgInterop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(addressString.Capacity * 2 
+						unsafe_addressString = (ushort*)global::__Interop.McgHelpers.CoTaskMemAllocAndZeroMemory(new global::System.IntPtr(checked(addressString.Capacity * 2 
 											+ 2)));
 						if (unsafe_addressString == null)
 							throw new global::System.OutOfMemoryException();
 					}
 					unsafe_addressStringLength = addressStringLength;
 					// Call to native method
-					unsafe___value = global::McgInterop.ntdll_dll_PInvokes.RtlIpv4AddressToStringExW(
+					unsafe___value = global::__Interop.ntdll_dll_PInvokes.RtlIpv4AddressToStringExW(
 										unsafe_address, 
 										port, 
 										unsafe_addressString, 
@@ -560,11 +575,15 @@ namespace McgInterop
 
 	public unsafe static partial class _MRT__PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void RhWaitForPendingFinalizers(int allowReentrantWait);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.DllImport("[MRT]", EntryPoint="RhYield", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Cdecl)]
+		public extern static int _RhYield();
+
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int RhCompatibleReentrantWaitAny(
 					int alertable, 
@@ -572,7 +591,7 @@ namespace McgInterop
 					int count, 
 					global::System.IntPtr* handles);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void _ecvt_s(
 					byte* buffer, 
@@ -582,7 +601,7 @@ namespace McgInterop
 					int* dec, 
 					int* sign);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("[MRT]", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void memmove(
 					byte* dmem, 
@@ -592,53 +611,53 @@ namespace McgInterop
 
 	public unsafe static partial class __PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("*", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void CallingConventionConverter_GetStubs(
 					global::System.IntPtr* returnVoidStub, 
 					global::System.IntPtr* returnIntegerStub, 
 					global::System.IntPtr* commonStub);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("*", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void CallingConventionConverter_SpecifyCommonStubData(global::System.IntPtr commonStubData);
 	}
 
-	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_0_dll_PInvokes
+	public unsafe static partial class api_ms_win_core_errorhandling_l1_1_1_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-errorhandling-l1-1-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int GetLastError();
 	}
 
 	public unsafe static partial class api_ms_win_core_winrt_l1_1_0_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int RoInitialize(uint initType);
 	}
 
-	public unsafe static partial class api_ms_win_core_localization_l1_2_0_dll_PInvokes
+	public unsafe static partial class api_ms_win_core_localization_l1_2_1_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int IsValidLocaleName(ushort* lpLocaleName);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int ResolveLocaleName(
 					ushort* lpNameToResolve, 
 					ushort* lpLocaleName, 
 					int cchLocaleName);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int GetCPInfoExW(
 					uint CodePage, 
 					uint dwFlags, 
 					global::Interop_mincore_CPINFOEXW__System_Text_Encoding_CodePages* lpCPInfoEx);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-localization-l1-2-1.dll", EntryPoint="FormatMessageW", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int FormatMessage(
 					int dwFlags, 
@@ -652,14 +671,14 @@ namespace McgInterop
 
 	public unsafe static partial class api_ms_win_core_winrt_robuffer_l1_1_0_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-winrt-robuffer-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.StdCall)]
-		public extern static int RoGetBufferMarshaler(global::System.Runtime.InteropServices.IMarshal__System_Runtime_WindowsRuntime__Impl.Vtbl*** bufferMarshalerPtr);
+		public extern static int RoGetBufferMarshaler(void** bufferMarshalerPtr);
 	}
 
 	public unsafe static partial class api_ms_win_core_com_l1_1_0_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("api-ms-win-core-com-l1-1-0.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static int CoCreateInstance(
 					byte* rclsid, 
@@ -669,16 +688,16 @@ namespace McgInterop
 					global::System.IntPtr* ppv);
 	}
 
-	public unsafe static partial class OleAut32_PInvokes
+	public unsafe static partial class oleaut32_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("oleaut32.dll", EntryPoint="#6", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static void SysFreeString(global::System.IntPtr bstr);
 	}
 
 	public unsafe static partial class ntdll_dll_PInvokes
 	{
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("ntdll.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static uint RtlIpv6AddressToStringExW(
 					byte* address, 
@@ -687,7 +706,7 @@ namespace McgInterop
 					ushort* addressString, 
 					uint* addressStringLength);
 
-		[global::McgInterop.McgGeneratedNativeCallCode]
+		[global::System.Runtime.InteropServices.McgGeneratedNativeCallCode]
 		[global::System.Runtime.InteropServices.DllImport("ntdll.dll", CallingConvention=global::System.Runtime.InteropServices.CallingConvention.Winapi)]
 		public extern static uint RtlIpv4AddressToStringExW(
 					byte* address, 

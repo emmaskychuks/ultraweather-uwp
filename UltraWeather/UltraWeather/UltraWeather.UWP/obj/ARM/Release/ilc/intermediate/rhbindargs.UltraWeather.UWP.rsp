@@ -3,13 +3,14 @@
 /runtime:mrt100_app
 /eh:clr
 /pdb
-"/nativelink:C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\ARM\ilc\lib\Native\vmath.lib"
+"/nativeLink:C:\Users\emmas\.nuget\packages\microsoft.net.native.compiler\1.7.0\tools\ARM\ilc\lib\Native\vmath.lib"
 /customImports
 /methodBodyFolding
 "C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\MDIL\UltraWeather.UWP.mdilexe"
-"/i:C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\MDIL\"
-/out:"C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\Native\UltraWeather.UWP.exe"
+"/i:C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\MDIL"
+"/out:C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\Native\UltraWeather.UWP.exe"
+"/pdbAltPath:C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\ilc"
 "/res:C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\intermediate\Native.res"
-"/i:C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.Native.Framework.1.3\1.3\ARM\ret\MDIL"
+"/i:C:\Users\emmas\.nuget\packages\microsoft.net.native.sharedlibrary-arm\1.7.0\tools\SharedLibrary\ret\MDIL"
 /shimexe
-/classlib:SharedLibrary
+"/classlib:SharedLibrary"

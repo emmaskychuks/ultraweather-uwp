@@ -1,6 +1,6 @@
 /In:"C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\in"
 /Lib:"C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\in"
-/Lib:"C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\ARM\ilc\lib\Private"
+/Lib:"C:\Users\emmas\.nuget\packages\microsoft.net.native.compiler\1.7.0\tools\ARM\ilc\lib\Private"
 /WinMD:"C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\ARM\Release\ilc\in\WinMetadata\Windows.winmd"
-/RdXmlPath:"C:\Program Files (x86)\MSBuild\15.0\.Net\.NetNative\15.0.24211\LibraryXML"
+/RdXmlPath:"C:\Users\emmas\.nuget\packages\microsoft.net.native.compiler\1.7.0\tools\LibraryXML"
 /RunOnlyPreDR

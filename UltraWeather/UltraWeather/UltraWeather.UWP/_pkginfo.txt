@@ -1,0 +1,1 @@
+C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\Upload\UltraWeather.UWP_1.1.1.0\UltraWeather.UWP_1.1.1.0_x86_x64_arm.appxbundle

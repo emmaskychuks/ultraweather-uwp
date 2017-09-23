@@ -22,9 +22,9 @@ namespace UltraWeather
 
         private async void GetWeather_Clicked(object sender, EventArgs e)
         {
-            if (!String.IsNullOrEmpty(zipCodeEntry.Text))
+            if (!String.IsNullOrEmpty(cityNameEntry.Text))
             {
-                Weather weather = await Core.GetWeather(zipCodeEntry.Text);
+                Weather weather = await Core.GetWeather(cityNameEntry.Text);
                 if (weather != null)
                 {
                     this.BindingContext = weather;
