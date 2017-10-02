@@ -1,1 +1,1 @@
-C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\AppPackages\UltraWeather.UWP_1.1.1.0_Test\UltraWeather.UWP_1.1.1.0_x86_x64_arm.appxbundle
+C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\AppPackages\UltraWeather.UWP_1.2.2.0_Test\UltraWeather.UWP_1.2.2.0_x86_x64_arm.appxbundle
