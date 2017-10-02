@@ -23,8 +23,8 @@
 
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
-                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand"  
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" 
               BackgroundColor="#ada62b">
                     <StackLayout Padding="10,10,10,10" HorizontalOptions="Start">
                         <Label Text="Search by City Name" TextColor="White" FontAttributes="Bold"  
@@ -44,40 +44,62 @@
                         </Button>
                     </StackLayout>
                 </StackLayout>
-                <StackLayout Orientation="Vertical" Padding="10,10,10,10"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#3498DB">
+                <StackLayout Orientation="Vertical" Padding="10,10,10,10"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="#3498DB">
                     <Label Text="Location" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="titleLabel" Text="{Binding Title}" Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+
+                    <Label Text="Weather Description" Style="{StaticResource labelStyle}" />
+                    <ContentView Style="{StaticResource fieldView}">
+                        <Label x:Name="weatherDescriptionLabel" Text="{Binding WeatherDescription}" Style="{DynamicResource BodyStyle}" />
+                    </ContentView>
+
                     <Label Text="Temperature" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="tempLabel" Text="{Binding Temperature}"  
-                Style="{DynamicResource BodyStyle}" />
+                                Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
                     <Label Text="Wind Speed" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
-                        <Label x:Name="windLabel" Text="{Binding Wind}" Style="{DynamicResource BodyStyle}" />
+                        <Label x:Name="windSpeedLabel" Text="{Binding WindSpeed}" Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
+                    <Label Text="Wind Degree" Style="{StaticResource labelStyle}" />
+                    <ContentView Style="{StaticResource fieldView}">
+                        <Label x:Name="windDegreeLabel" Text="{Binding WindDegree}" Style="{DynamicResource BodyStyle}" />
+                    </ContentView>
+                    
+                    <Label Text="Pressure" Style="{StaticResource labelStyle}" />
+                    <ContentView Style="{StaticResource fieldView}">
+                        <Label x:Name="pressureLabel" Text="{Binding Pressure}" Style="{DynamicResource BodyStyle}" />
+                    </ContentView>
+                    
                     <Label Text="Humidity" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="humidityLabel" Text="{Binding Humidity}"  
-                Style="{DynamicResource BodyStyle}" />
+                                Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
                     <Label Text="Visibility" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="visibilitylabel" Text="{Binding Visibility}"  
-                Style="{DynamicResource BodyStyle}" />
+                                        Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
                     <Label Text="Time of Sunrise" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="sunriseLabel" Text="{Binding Sunrise}"  
-                Style="{DynamicResource BodyStyle}" />
+                                        Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
                     <Label Text="Time of Sunset" Style="{StaticResource labelStyle}" />
                     <ContentView Style="{StaticResource fieldView}">
                         <Label x:Name="sunsetLabel" Text="{Binding Sunset}"  
-                Style="{DynamicResource BodyStyle}" />
+                                        Style="{DynamicResource BodyStyle}" />
                     </ContentView>
+                    
                 </StackLayout>
             </StackLayout>
         </ScrollView>

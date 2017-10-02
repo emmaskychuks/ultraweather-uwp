@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="40f22586-8483-4836-9c58-ee9ce25403ce" Publisher="CN=emmas" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="40f22586-8483-4836-9c58-ee9ce25403ce" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="9960Emmaskyapps.UltraWeather" Publisher="CN=6EA50C63-48D5-43A4-B47D-FFAA6C451CAC" Version="1.1.1.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="b0f99a50-96f6-44f2-9756-6b05bc91c3a8" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>UltraWeather.UWP</DisplayName>
-    <PublisherDisplayName>emmas</PublisherDisplayName>
+    <DisplayName>Ultra Weather</DisplayName>
+    <PublisherDisplayName>Emmaskyapps</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>

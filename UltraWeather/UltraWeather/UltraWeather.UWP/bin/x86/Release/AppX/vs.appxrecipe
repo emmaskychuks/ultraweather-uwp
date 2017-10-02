@@ -8,8 +8,8 @@
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
     <SolutionConfiguration>Release|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
-    <PackageIdentityName>40f22586-8483-4836-9c58-ee9ce25403ce</PackageIdentityName>
-    <PackageIdentityPublisher>CN=emmas</PackageIdentityPublisher>
+    <PackageIdentityName>b0f99a50-96f6-44f2-9756-6b05bc91c3a8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=6EA50C63-48D5-43A4-B47D-FFAA6C451CAC</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
@@ -19,71 +19,71 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D0392D5009877F701420341E83BC61B20AB1D5E15F1091F29C4CD3906D821EFE</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>40f22586-8483-4836-9c58-ee9ce25403ce_1.0.0.0_x86__fzq5emajg182p</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>40f22586-8483-4836-9c58-ee9ce25403ce_fzq5emajg182p!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>40f22586-8483-4836-9c58-ee9ce25403ce</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=emmas</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>CE144447568D8EE147B38D19C6E2C11DF8759294949218E0E39E7CD760FF3571</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9960Emmaskyapps.UltraWeather_1.1.1.0_x86__pnte238vhdhdt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9960Emmaskyapps.UltraWeather_pnte238vhdhdt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9960Emmaskyapps.UltraWeather</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=6EA50C63-48D5-43A4-B47D-FFAA6C451CAC</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.1.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T07:49:52.591</Modified>
+      <Modified>2017-10-02T05:40:25.757</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-100.png">
       <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:12.878</Modified>
+      <Modified>2017-09-23T08:07:46.306</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-125.png">
       <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:12.894</Modified>
+      <Modified>2017-09-23T08:07:46.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-150.png">
       <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:12.910</Modified>
+      <Modified>2017-09-23T08:07:46.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-200.png">
       <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:12.928</Modified>
+      <Modified>2017-09-23T08:07:46.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\BadgeLogo.scale-400.png">
       <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:12.954</Modified>
+      <Modified>2017-09-23T08:07:46.349</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.649</Modified>
+      <Modified>2017-09-23T08:07:46.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
       <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.667</Modified>
+      <Modified>2017-09-23T08:07:46.031</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
       <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.687</Modified>
+      <Modified>2017-09-23T08:07:46.043</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.718</Modified>
+      <Modified>2017-09-23T08:07:46.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.763</Modified>
+      <Modified>2017-09-23T08:07:46.087</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-100.png">
       <PackagePath>Assets\LockScreenLogo.scale-100.png</PackagePath>
@@ -108,152 +108,152 @@
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.345</Modified>
+      <Modified>2017-09-23T08:07:45.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-125.png">
       <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.360</Modified>
+      <Modified>2017-09-23T08:07:45.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-150.png">
       <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.375</Modified>
+      <Modified>2017-09-23T08:07:45.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.391</Modified>
+      <Modified>2017-09-23T08:07:45.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.409</Modified>
+      <Modified>2017-09-23T08:07:45.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:21.680</Modified>
+      <Modified>2017-09-23T08:07:46.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:21.700</Modified>
+      <Modified>2017-09-23T08:07:46.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:21.749</Modified>
+      <Modified>2017-09-23T08:07:46.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:21.775</Modified>
+      <Modified>2017-09-23T08:07:46.257</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:21.846</Modified>
+      <Modified>2017-09-23T08:07:46.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.425</Modified>
+      <Modified>2017-09-23T08:07:45.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
       <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.440</Modified>
+      <Modified>2017-09-23T08:07:45.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
       <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.479</Modified>
+      <Modified>2017-09-23T08:07:45.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.495</Modified>
+      <Modified>2017-09-23T08:07:45.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.518</Modified>
+      <Modified>2017-09-23T08:07:45.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.778</Modified>
+      <Modified>2017-09-23T08:07:46.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.793</Modified>
+      <Modified>2017-09-23T08:07:46.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.816</Modified>
+      <Modified>2017-09-23T08:07:46.111</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.831</Modified>
+      <Modified>2017-09-23T08:07:46.118</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.848</Modified>
+      <Modified>2017-09-23T08:07:46.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.863</Modified>
+      <Modified>2017-09-23T08:07:46.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.968</Modified>
+      <Modified>2017-09-23T08:07:46.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.878</Modified>
+      <Modified>2017-09-23T08:07:46.142</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.982</Modified>
+      <Modified>2017-09-23T08:07:46.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.953</Modified>
+      <Modified>2017-09-23T08:07:46.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:59.036</Modified>
+      <Modified>2017-09-23T08:07:46.209</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.918</Modified>
+      <Modified>2017-09-23T08:07:46.150</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.997</Modified>
+      <Modified>2017-09-23T08:07:46.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.933</Modified>
+      <Modified>2017-09-23T08:07:46.157</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:59.014</Modified>
+      <Modified>2017-09-23T08:07:46.196</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
@@ -263,7 +263,7 @@
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:47:05.613</Modified>
+      <Modified>2017-09-23T08:07:57.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
       <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
@@ -288,27 +288,27 @@
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.534</Modified>
+      <Modified>2017-09-23T08:07:45.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
       <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.550</Modified>
+      <Modified>2017-09-23T08:07:45.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
       <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.567</Modified>
+      <Modified>2017-09-23T08:07:45.987</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.606</Modified>
+      <Modified>2017-09-23T08:07:45.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:50:58.632</Modified>
+      <Modified>2017-09-23T08:07:46.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -317,7 +317,7 @@
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T06:51:54.985</Modified>
+      <Modified>2017-09-23T08:53:29.886</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.dll.config">
       <PackagePath>UltraWeather.dll.config</PackagePath>
@@ -325,23 +325,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.dll">
       <PackagePath>UltraWeather.UWP.dll</PackagePath>
-      <Modified>2017-09-23T07:49:51.476</Modified>
+      <Modified>2017-10-02T05:40:24.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.exe">
       <PackagePath>UltraWeather.UWP.exe</PackagePath>
-      <Modified>2017-09-23T07:49:52.569</Modified>
+      <Modified>2017-10-02T05:40:25.730</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.pdb">
       <PackagePath>UltraWeather.UWP.pdb</PackagePath>
-      <Modified>2017-09-23T07:49:52.556</Modified>
+      <Modified>2017-10-02T05:40:25.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2017-09-23T07:48:55.399</Modified>
+      <Modified>2017-10-02T05:39:12.279</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2017-09-23T07:48:55.400</Modified>
+      <Modified>2017-10-02T05:39:12.280</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

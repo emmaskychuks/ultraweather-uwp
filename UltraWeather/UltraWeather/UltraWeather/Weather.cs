@@ -9,8 +9,11 @@ namespace UltraWeather
     public class Weather
     {
         public string Title { get; set; }
+        public string WeatherDescription { get; set; }
         public string Temperature { get; set; }
-        public string Wind { get; set; }
+        public string WindSpeed { get; set; }
+        public string WindDegree { get; set; }
+        public string Pressure { get; set; }
         public string Humidity { get; set; }
         public string Visibility { get; set; }
         public string Sunrise { get; set; }
@@ -20,8 +23,11 @@ namespace UltraWeather
         public Weather()
         {
             Title = " ";
+            WeatherDescription = " ";
             Temperature = " ";
-            Wind = " ";
+            WindSpeed = " ";
+            WindDegree = " ";
+            Pressure = " ";
             Humidity = " ";
             Visibility = " ";
             Sunrise = " ";

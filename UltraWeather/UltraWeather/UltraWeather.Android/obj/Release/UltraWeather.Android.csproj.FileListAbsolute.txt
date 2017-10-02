@@ -1,0 +1,1 @@
+C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\obj\Release\UltraWeather.Android.csprojResolveAssemblyReference.cache
