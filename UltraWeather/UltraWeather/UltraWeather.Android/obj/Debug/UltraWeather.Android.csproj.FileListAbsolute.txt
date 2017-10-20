@@ -61,3 +61,5 @@ C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\Ultra
 C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\bin\Debug\System.Net.Http.Primitives.dll
+C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.Android\bin\Debug\System.Net.Http.Primitives.xml

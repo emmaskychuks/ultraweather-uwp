@@ -19,19 +19,19 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CE144447568D8EE147B38D19C6E2C11DF8759294949218E0E39E7CD760FF3571</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>9960Emmaskyapps.UltraWeather_1.1.1.0_x86__pnte238vhdhdt</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>2C2C791358ADEA48686C123489B057218A9F02119604DC897EE54020AAEEC37E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9960Emmaskyapps.UltraWeather_1.2.2.0_x86__pnte238vhdhdt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>9960Emmaskyapps.UltraWeather_pnte238vhdhdt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>9960Emmaskyapps.UltraWeather</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=6EA50C63-48D5-43A4-B47D-FFAA6C451CAC</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.1.0</RegisteredVersion>
+    <RegisteredVersion>1.2.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-02T05:40:25.757</Modified>
+      <Modified>2017-10-03T05:02:12.237</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -317,7 +317,7 @@
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-09-23T08:53:29.886</Modified>
+      <Modified>2017-10-03T05:00:40.604</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.dll.config">
       <PackagePath>UltraWeather.dll.config</PackagePath>
@@ -325,23 +325,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.dll">
       <PackagePath>UltraWeather.UWP.dll</PackagePath>
-      <Modified>2017-10-02T05:40:24.314</Modified>
+      <Modified>2017-10-03T05:02:10.651</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.exe">
       <PackagePath>UltraWeather.UWP.exe</PackagePath>
-      <Modified>2017-10-02T05:40:25.730</Modified>
+      <Modified>2017-10-03T05:02:12.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\UltraWeather.UWP.pdb">
       <PackagePath>UltraWeather.UWP.pdb</PackagePath>
-      <Modified>2017-10-02T05:40:25.714</Modified>
+      <Modified>2017-10-03T05:02:12.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\_Resources\0.rsrc">
       <PackagePath>_Resources\0.rsrc</PackagePath>
-      <Modified>2017-10-02T05:39:12.279</Modified>
+      <Modified>2017-10-03T05:01:08.611</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x86\Release\ilc\_Resources\index.txt">
       <PackagePath>_Resources\index.txt</PackagePath>
-      <Modified>2017-10-02T05:39:12.280</Modified>
+      <Modified>2017-10-03T05:01:08.611</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
