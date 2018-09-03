@@ -1,2 +1,2 @@
-# ultraweather_uwp
+# ultraweather-uwp
 Repo for Ultraweather Application
