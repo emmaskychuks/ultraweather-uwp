@@ -1,27 +1,31 @@
 ﻿using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace UltraWeather
 {
-    public class DataService
+    public static class DataService
     {
         public static async Task<dynamic> getDataFromService(string queryString)
         {
-            HttpClient client = new HttpClient();
-            var response = await client.GetAsync(queryString);
-
-            dynamic data = null;
-            if (response != null)
+            try
             {
-                string json = response.Content.ReadAsStringAsync().Result;
-                data = JsonConvert.DeserializeObject(json);
+                HttpClient client = new HttpClient();
+                var response = await client.GetAsync(queryString);
+
+                dynamic data = null;
+                if (response != null)
+                {
+                    string json = response.Content.ReadAsStringAsync().Result;
+                    data = JsonConvert.DeserializeObject(json);
+                }
+                return data;
             }
-            return data;
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

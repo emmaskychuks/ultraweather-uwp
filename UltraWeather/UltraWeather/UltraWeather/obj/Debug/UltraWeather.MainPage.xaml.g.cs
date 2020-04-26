@@ -11,8 +11,8 @@
 namespace UltraWeather {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Github-Projects\\Universal-Windows-Development\\UltraWeather\\UltraWeather\\UltraW" +
-        "eather\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Github Projects\\ultraweather-uwp\\UltraWeather\\UltraWeather\\UltraWeather\\MainPa" +
+        "ge.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

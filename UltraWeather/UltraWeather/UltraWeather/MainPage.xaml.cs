@@ -24,7 +24,8 @@ namespace UltraWeather
         {
             if (!String.IsNullOrEmpty(cityNameEntry.Text))
             {
-                Weather weather = await Core.GetWeather(cityNameEntry.Text);
+                CoreDAO coreDAO = new CoreDAO();
+                Weather weather = await coreDAO.GetWeather(cityNameEntry.Text);
                 if (weather != null)
                 {
                     this.BindingContext = weather;
