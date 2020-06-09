@@ -7,7 +7,7 @@ namespace UltraWeather
     {
         public async Task<Weather> GetWeather(string cityName)
         {
-            const string key = "b7aa537f5e9ac25b174916109f8f315d";
+            const string key = "Open Weather API Key";
             string queryString = "http://api.openweathermap.org/data/2.5/weather?q="
                 + cityName + "&units=imperial" + "&appid=" + key;
 
