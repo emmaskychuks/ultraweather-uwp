@@ -1,6 +1,0 @@
-MainPackage=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\Upload\UltraWeather.UWP_1.2.2.0_ARM.appx
-SymbolPackage=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\Upload\UltraWeather.UWP_1.2.2.0\UltraWeather.UWP_1.2.2.0_ARM.appxsym
-ResourcePack=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\UltraWeather.UWP_1.2.2.0_scale-100.appx
-ResourcePack=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\UltraWeather.UWP_1.2.2.0_scale-125.appx
-ResourcePack=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\UltraWeather.UWP_1.2.2.0_scale-150.appx
-ResourcePack=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\ARM\Release\UltraWeather.UWP_1.2.2.0_scale-400.appx

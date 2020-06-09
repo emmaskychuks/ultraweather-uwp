@@ -1,2 +1,0 @@
-MainPackage=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\bin\x64\Release\UltraWeather.UWP_1.2.2.0_x64.appx
-SymbolPackage=C:\Github-Projects\Universal-Windows-Development\UltraWeather\UltraWeather\UltraWeather.UWP\AppPackages\UltraWeather.UWP_1.2.2.0_Test\UltraWeather.UWP_1.2.2.0_x64.appxsym

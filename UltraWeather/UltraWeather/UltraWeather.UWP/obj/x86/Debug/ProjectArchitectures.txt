@@ -1,1 +1,0 @@
-C:\Github Projects\ultraweather-uwp\UltraWeather\UltraWeather\UltraWeather.UWP\UltraWeather.UWP.csproj;x86
